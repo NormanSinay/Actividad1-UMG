@@ -5,6 +5,7 @@ Actividad 1 Curso de Desarrollo Web | UMG Ingeniería en Sistemas
 El proyecto Actividad1-UMG tiene como objetivo el recrear una pagina web 1.0
 
 # Enlace del Sitio Web
+https://actividad1umgdw.netlify.app/
 
 # Datos del Estudiante
 Norman Anselmo Sinay Gómez
