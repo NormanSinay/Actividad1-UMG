@@ -18,7 +18,7 @@ Se han realizado mejoras significativas en el estilo y la disposición del conte
 
 ### Enlace del Sitio Web
 
-[Visita el Sitio Web](https://actividad2umgdw.netlify.app/)
+https://actividad2umgdw.netlify.app/
 
 ### Datos del Estudiante
 
