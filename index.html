@@ -1,146 +1,172 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Actividad 2</title>
-    <link rel="stylesheet" href="styles.css" />
+    <title>Inicio - Semuc Champey</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link href="styles.css" rel="stylesheet" />
   </head>
-
   <body>
-    <header>
-      <h1>Semuc Champey</h1>
-    </header>
-
-    <nav>
-      <ul>
-        <li><a href="#descripcion">Descripción</a></li>
-        <li><a href="#galeria">Galería de Imágenes</a></li>
-        <li><a href="#itinerario">Itinerario</a></li>
-        <li><a href="#actividades">Actividades</a></li>
-      </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Semuc Champey</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="atracciones.html">Atracciones</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="alojamiento.html">Alojamiento</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
 
-    <main>
-      <section id="descripcion">
-        <h2>Descripción del Lugar</h2>
-        <p>
-          Semuc Champey es un enclave natural localizado cerca de Lanquín, en el
-          departamento de Alta Verapaz, Guatemala. Conocido por sus
-          espectaculares pozas escalonadas de agua turquesa, es un destino
-          turístico ideal para los amantes de la naturaleza y la aventura.
-        </p>
-        <p>
-          Semuc Champey fue declarado en 1999 Monumento Natural por el entonces
-          presidente de la República de Guatemala, Álvaro Arzú Irigoyen y se
-          encuentra muy próximo geográficamente al parque nacional Grutas de
-          Lanquín con el que comparte un centro de visitantes para dar cobertura
-          al turista.
-        </p>
-        <p>
-          Semuc Champey está ubicado a 80 km de la ciudad de Cobán. Se toma la
-          carretera que conduce de Cobán a San Pedro Carchá, al pasar el poblado
-          se sigue la carretera que conduce hacia El Pajal, hasta llegar a la
-          bifurcación que dirige hacia el municipio de San Agustín Lanquín. Ya
-          en el centro de Lanquín se debe tomar la carretera que conduce hacia
-          Semuc Champey (12 Km). (Turismo SIGAP, 2016) Partiendo de la ciudad
-          capital, el trayecto se realiza en aproximadamente 6 horas.
-        </p>
-        <p>
-          En idioma q’eqchi’ significa «donde el río se esconde», debido a que
-          en uno de los extremos se puede observar cómo el caudaloso Río Cahabón
-          se interna en una caverna de piedra caliza, en donde pasa por debajo
-          de las pozas. El bosque subtropical que rodea al lugar colabora para
-          que exista una enorme riqueza ecológica. Entre las especies que
-          sobresalen las aves, mamíferos, reptiles, anfibios y peces, además de
-          una gran variedad de árboles. Cuenta con un mirador de más de 50
-          metros de altura para observar los 350 metros de largo de las pozas
-          naturales del complejo natural. Las cataratas de hasta 40 pies de alto
-          y todas las pozas que son alimentadas por riachuelos, maravillan al
-          visitante.
-        </p>
-      </section>
-
-      <section id="galeria">
-        <h2>Galería de Imágenes</h2>
-        <div class="gallery">
-          <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Alta_Verapaz_department_location_map.svg/680px-Alta_Verapaz_department_location_map.svg.png"
-            alt="Mapa del departamento de Alta Verapaz"
-          />
-          <img
-            src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Semuc_Champey_8.jpg"
-            alt="Semuc Champey"
-          />
-          <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Semuc_Champey_6.jpg/675px-Semuc_Champey_6.jpg"
-            alt="Pozas de Semuc Champey"
-          />
-          <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Lanquin_waterfall.jpg/675px-Lanquin_waterfall.jpg"
-            alt="Cataratas de Lanquín"
-          />
+    <div class="container my-5">
+      <h1 class="text-center">Bienvenido a Semuc Champey</h1>
+      <p class="lead text-center">Un paraíso natural en Guatemala</p>
+      <hr />
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
         </div>
-      </section>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Semuc_Champey_8.jpg"
+              class="img-fluid w-50"
+              alt="Semuc Champey 1"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Semuc_Champey_6.jpg/675px-Semuc_Champey_6.jpg"
+              class="d-block w-50"
+              alt="Semuc Champey 2"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Lanquin_waterfall.jpg/675px-Lanquin_waterfall.jpg"
+              class="d-block w-50"
+              alt="Semuc Champey 3"
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="row mt-5">
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Semuc_Champey_pool.jpg/675px-Semuc_Champey_pool.jpg"
+              class="card-img-top"
+              alt="Poza natural"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Pozas Naturales</h5>
+              <p class="card-text">
+                Descubre la belleza de las pozas naturales de Semuc Champey.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Lanquin_Entrance.jpg/675px-Lanquin_Entrance.jpg"
+              class="card-img-top"
+              alt="Cuevas de Lanquín"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Cuevas de Lanquín</h5>
+              <p class="card-text">
+                Explora las misteriosas cuevas de Lanquín.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Lanquin_River.jpg/675px-Lanquin_River.jpg"
+              class="card-img-top"
+              alt="Río Cahabón"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Río Cahabón</h5>
+              <p class="card-text">
+                Disfruta de actividades acuáticas en el río Cahabón.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-      <section id="itinerario">
-        <h2>Tabla de Itinerarios</h2>
-        <table>
-          <thead>
-            <tr>
-              <th>Fecha</th>
-              <th>Hora</th>
-              <th>Actividad</th>
-              <th>Lugar</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>01/07/2024</td>
-              <td>06:00 AM</td>
-              <td>Salida desde Ciudad de Guatemala</td>
-              <td>Ciudad de Guatemala</td>
-            </tr>
-            <tr>
-              <td>01/07/2024</td>
-              <td>11:00 AM</td>
-              <td>Llegada a Lanquín</td>
-              <td>Lanquín</td>
-            </tr>
-            <tr>
-              <td>01/07/2024</td>
-              <td>12:00 PM</td>
-              <td>Almuerzo</td>
-              <td>Restaurante Local</td>
-            </tr>
-            <tr>
-              <td>01/07/2024</td>
-              <td>02:00 PM</td>
-              <td>Visita a Semuc Champey</td>
-              <td>Semuc Champey</td>
-            </tr>
-            <tr>
-              <td>01/07/2024</td>
-              <td>05:00 PM</td>
-              <td>Regreso a Lanquín</td>
-              <td>Lanquín</td>
-            </tr>
-          </tbody>
-        </table>
-      </section>
+    <footer class="bg-primary text-light text-center py-4">
+      &copy; 2024 Norman Sinay - Ingeniería en Sistemas
+    </footer>
 
-      <section id="actividades">
-        <h2>Lista de Actividades</h2>
-        <ul>
-          <li>Nadar en las pozas naturales</li>
-          <li>Explorar las cuevas de Lanquín</li>
-          <li>Hacer tubing en el río Cahabón</li>
-          <li>Disfrutar de la flora y fauna local</li>
-          <li>Participar en caminatas guiadas</li>
-        </ul>
-      </section>
-    </main>
-
-    <footer>&copy; Norman Sinay - Ingeniería en Sistemas</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
