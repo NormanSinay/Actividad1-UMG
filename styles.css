@@ -1,14 +1,105 @@
 :root {
-    --bs-primary: #007bff;
-    --bs-secondary: #6c757d;
-    --bs-success: #28a745;
-    --bs-info: #17a2b8;
-    --bs-warning: #ffc107;
-    --bs-danger: #dc3545;
-    --bs-light: #f8f9fa;
-    --bs-dark: #343a40;
+  --bs-primary: #007bff;
+  --bs-secondary: #6c757d;
+  --bs-success: #28a745;
+  --bs-info: #17a2b8;
+  --bs-warning: #ffc107;
+  --bs-danger: #eb5765;
+  --bs-light: #f8f9fa;
+  --bs-dark: #343a40;
 }
 
 body {
-    padding-top: 5px;
+  padding-top: 5px;
+  font-family: Arial, sans-serif;
 }
+
+.carousel-item img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.card-img-top {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+/* 576px */
+@media (max-width: 576px) {
+    .container {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  
+    .card {
+      margin-bottom: 15px;
+    }
+  
+    h1 {
+      font-size: 24px;
+    }
+  
+    .navbar-brand {
+      font-size: 18px;
+    }
+  
+    .nav-link {
+      font-size: 14px;
+    }
+  }
+  
+  /* 768px */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 28px;
+    }
+  
+    .navbar-brand {
+      font-size: 20px;
+    }
+  
+    .nav-link {
+      font-size: 16px;
+    }
+  }
+  
+  /* 992px */
+  @media (max-width: 992px) {
+    h1 {
+      font-size: 32px;
+    }
+  
+    .navbar-brand {
+      font-size: 22px;
+    }
+  
+    .nav-link {
+      font-size: 18px;
+    }
+  }
+  
+  /* 1200px */
+  @media (min-width: 1200px) {
+    h1 {
+      font-size: 36px;
+    }
+  
+    .navbar-brand {
+      font-size: 24px;
+    }
+  
+    .nav-link {
+      font-size: 20px;
+    }
+  }
