@@ -114,35 +114,34 @@
         </button>
       </div>
       <div>
-        <br>
+        <br />
         <p class="lead text-center">
-          Semuc Champey es un enclave natural localizado cerca de Lanquín, en
-          el departamento de Alta Verapaz, Guatemala. Conocido por sus
+          Semuc Champey es un enclave natural localizado cerca de Lanquín, en el
+          departamento de Alta Verapaz, Guatemala. Conocido por sus
           espectaculares pozas escalonadas de agua turquesa, es un destino
-          turístico ideal para los amantes de la naturaleza y la aventura.
-          Semuc Champey fue declarado en 1999 Monumento Natural por el
-          entonces presidente de la República de Guatemala, Álvaro Arzú
-          Irigoyen y se encuentra muy próximo geográficamente al parque
-          nacional Grutas de Lanquín con el que comparte un centro de
-          visitantes para dar cobertura al turista. Semuc Champey está ubicado
-          a 80 km de la ciudad de Cobán. Se toma la carretera que conduce de
-          Cobán a San Pedro Carchá, al pasar el poblado se sigue la carretera
-          que conduce hacia El Pajal, hasta llegar a la bifurcación que dirige
-          hacia el municipio de San Agustín Lanquín. Ya en el centro de
-          Lanquín se debe tomar la carretera que conduce hacia Semuc Champey
-          (12 Km). (Turismo SIGAP, 2016) Partiendo de la ciudad capital, el
-          trayecto se realiza en aproximadamente 6 horas. En idioma q’eqchi’
-          significa «donde el río se esconde», debido a que en uno de los
-          extremos se puede observar cómo el caudaloso Río Cahabón se interna
-          en una caverna de piedra caliza, en donde pasa por debajo de las
-          pozas. El bosque subtropical que rodea al lugar colabora para que
-          exista una enorme riqueza ecológica. Entre las especies que
-          sobresalen las aves, mamíferos, reptiles, anfibios y peces, además
-          de una gran variedad de árboles. Cuenta con un mirador de más de 50
+          turístico ideal para los amantes de la naturaleza y la aventura. Semuc
+          Champey fue declarado en 1999 Monumento Natural por el entonces
+          presidente de la República de Guatemala, Álvaro Arzú Irigoyen y se
+          encuentra muy próximo geográficamente al parque nacional Grutas de
+          Lanquín con el que comparte un centro de visitantes para dar cobertura
+          al turista. Semuc Champey está ubicado a 80 km de la ciudad de Cobán.
+          Se toma la carretera que conduce de Cobán a San Pedro Carchá, al pasar
+          el poblado se sigue la carretera que conduce hacia El Pajal, hasta
+          llegar a la bifurcación que dirige hacia el municipio de San Agustín
+          Lanquín. Ya en el centro de Lanquín se debe tomar la carretera que
+          conduce hacia Semuc Champey (12 Km). (Turismo SIGAP, 2016) Partiendo
+          de la ciudad capital, el trayecto se realiza en aproximadamente 6
+          horas. En idioma q’eqchi’ significa «donde el río se esconde», debido
+          a que en uno de los extremos se puede observar cómo el caudaloso Río
+          Cahabón se interna en una caverna de piedra caliza, en donde pasa por
+          debajo de las pozas. El bosque subtropical que rodea al lugar colabora
+          para que exista una enorme riqueza ecológica. Entre las especies que
+          sobresalen las aves, mamíferos, reptiles, anfibios y peces, además de
+          una gran variedad de árboles. Cuenta con un mirador de más de 50
           metros de altura para observar los 350 metros de largo de las pozas
-          naturales del complejo natural. Las cataratas de hasta 40 pies de
-          alto y todas las pozas que son alimentadas por riachuelos,
-          maravillan al visitante.
+          naturales del complejo natural. Las cataratas de hasta 40 pies de alto
+          y todas las pozas que son alimentadas por riachuelos, maravillan al
+          visitante.
         </p>
       </div>
       <div class="row mt-5">
@@ -188,6 +187,72 @@
               <p class="card-text">
                 Disfruta de actividades acuáticas en el río Cahabón.
               </p>
+            </div>
+          </div>
+        </div>
+        <div class="mt-5">
+          <h2 class="text-center">Comentarios</h2>
+          <div id="comentarios" class="mt-3"></div>
+        </div>
+        <div class="mt-4">
+          <h2 class="text-center">Formulario de Contacto</h2>
+          <div class="card">
+            <div class="card-body">
+              <form id="contactForm" class="needs-validation" novalidate>
+                <div class="mb-3">
+                  <label for="nombre" class="form-label">Nombre</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="nombre"
+                    required
+                  />
+                  <div class="invalid-feedback">
+                    Por favor, ingrese su nombre.
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <label for="fechaNacimiento" class="form-label"
+                    >Fecha de Nacimiento</label
+                  >
+                  <input
+                    type="date"
+                    class="form-control"
+                    id="fechaNacimiento"
+                    required
+                  />
+                  <div class="invalid-feedback">
+                    Por favor, ingrese su fecha de nacimiento.
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label"
+                    >Correo Electrónico</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    required
+                  />
+                  <div class="invalid-feedback">
+                    Por favor, ingrese un correo electrónico válido.
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <label for="mensaje" class="form-label">Mensaje</label>
+                  <textarea
+                    class="form-control"
+                    id="mensaje"
+                    rows="4"
+                    required
+                  ></textarea>
+                  <div class="invalid-feedback">
+                    Por favor, ingrese su mensaje.
+                  </div>
+                </div>
+                <button type="submit" class="btn btn-success">Enviar</button>
+              </form>
             </div>
           </div>
         </div>
